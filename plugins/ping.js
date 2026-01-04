@@ -1,0 +1,1 @@
+module.exports = {     cmd: 'ping',     desc: 'Check bot speed',     run: async (sock, msg, args) => {         await sock.sendMessage(msg.key.remoteJid, { text: 'Pong! 🏓 Mark-xMD is active.' }, { quoted: msg });     } };
